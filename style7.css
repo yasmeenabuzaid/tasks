@@ -1,0 +1,135 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+header>img{
+    width: 150px;
+}
+.button1{
+    width: 100px;
+    background-color: deeppink;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.button1:hover{
+    background-color: rgb(229, 153, 168);
+}
+.head{
+    margin: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   align-items: center;
+  
+}
+.button2{
+     color: aliceblue;
+    width: 200px;
+    background-color:deeppink;
+    border-radius: 20px;
+    height: 35px;
+}
+.button2:hover{
+    background-color: rgb(241, 163, 184);
+
+}
+.img1{
+    width: 350px;
+    margin: 50px;
+}
+.page2{
+    display: flex;
+    text-align: center
+}
+.sec3{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+ 
+
+}
+.sec2{
+    display: flex;
+    justify-content: space-between ;
+    margin: 30px;
+    margin-top: 40px;
+    padding: 50px;
+}
+.sec2>img{
+    width: 200px;
+    
+}
+.features-section {
+    padding: 100px 59px 200px 59px;
+    position: relative;
+  }
+  
+  .feature {
+    display: flex;
+    height: 400px;
+    margin-bottom: 45px;
+    padding: 55px 55px 55px 100px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+  }
+  
+  .feature .text-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .feature .text-info h2 {
+    margin-bottom: 20px;
+  }
+  
+  .feature .text-info p {
+    color: var(--grayish-blue);
+  }
+  
+  .feature .illustration {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .feature .illustration img {
+    height: 90%;
+  }
+  
+  .feature:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .feature:nth-child(even) .illustration {
+    justify-content: flex-start;
+  }
+  
+  .cta {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 50px 0;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 10;
+    bottom: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: auto;
+    background: white;
+  }
+  
+  .cta h2 {
+    margin-bottom: 20px;
+  }
+  
+ 

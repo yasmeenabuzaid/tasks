@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+}
+
+/*start header*/
+body{
+    height: 100vh;
+    background:linear-gradient(to bottom, rgb(144, 46, 10), rgb(53, 35, 137), #2c125e, blue)
+}
+header{
+    display:flex ;
+    justify-content: space-between;
+}
+.iteam{
+    display: flex;
+    gap: 7px;
+    padding: 9px;
+    color: aliceblue;
+}
+/*end header*/
+section{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section .image1{
+    width: 200px;
+    
+    
+    
+
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 5px;
+}
+footer{
+    margin: 0%;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(192, 192, 192);
+}
+.but{
+   width: 100px;
+   height: 30px;
+   background-color: rgb(108, 178, 244);
+   border-radius: 10px;
+}
+.but:hover{
+    background-color: rgb(255, 125, 103);
+    cursor: pointer;
+}
+.in1{
+
+    margin-top: 20px;
+    width: 280px;
+}

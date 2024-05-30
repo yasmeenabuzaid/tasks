@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header>div{
+    display: flex;
+    align-items: center;
+    
+}
+.item{
+    margin: 5px;
+}
+header>img{
+    margin: 10px;
+    width: 100px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    
+}
+title{
+    display: flex;
+    flex-direction: column;
+}
+.button2{
+ width: 110px;
+ background-color: rgb(69, 125, 255);
+ color: aliceblue;
+}
+
+.page11{
+    width: 100%;
+    margin: 0;
+    padding: 05;
+   background-color: rgba(238, 223, 241, 0.425);
+    display: flex;
+    flex-direction: column;
+}
+.imagewave{
+    width: 100%;
+}
+.page00{
+    display: flex;
+    flex-direction:column;
+}
+.img2{
+    display:flex ;
+    align-self:flex-end;
+}
+.button22{
+    display: flex;
+    flex-direction: column;
+
+}
+.section2{
+    color: aliceblue;
+    background-color: rgb(154, 136, 172);
+    padding: 50px;
+    margin: 0%;
+}
+footer{
+    background-color: rgb(33, 33, 91);
+    padding: 30px;
+    height: 30px;
+}
+
+.send1{
+    width: 100px;
+      margin: 4px;
+    background-color: rgb(21, 21, 59);
+    color: aliceblue;
+}
+.text4{
+    margin: 20px;
+}
